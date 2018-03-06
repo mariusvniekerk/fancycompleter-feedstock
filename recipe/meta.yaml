@@ -18,7 +18,7 @@ build:
 requirements:
   build:
     - python
-    - setuptools
+    - setuptools_scm
   run:
     - python
     - pyreadline  # [win]
