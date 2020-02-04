@@ -1,6 +1,6 @@
 {% set name = "fancycompleter" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "19b56fed31f345ea9d671c58f691033fe8dc226c8bec44d0cab861f37d1472c1" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "09e0feb8ae242abdfd7ef2ba55069a46f011814a80fe5476be48f51b00247272" %}
 
 package:
   name: {{ name|lower }}
