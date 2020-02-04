@@ -1,6 +1,6 @@
 {% set name = "fancycompleter" %}
-{% set version = "0.8" %}
-{% set sha256 = "d2522f1f3512371f295379c4c0d1962de06762eb586c199620a2a5d423539b12" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "19b56fed31f345ea9d671c58f691033fe8dc226c8bec44d0cab861f37d1472c1" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
