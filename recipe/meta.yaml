@@ -27,10 +27,10 @@ requirements:
 test:
   imports:
     - fancycompleter
-  commands:
-    - pip check
-  requires:
-    - pip
+  commands:  # [not win]
+    - pip check  # [not win]
+  requires:  # [not win]
+    - pip  # [not win]
 
 about:
   home: https://github.com/pdbpp/fancycompleter
