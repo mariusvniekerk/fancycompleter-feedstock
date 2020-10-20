@@ -22,7 +22,7 @@ requirements:
   run:
     - python
     - pyreadline  # [win]
-    - pyrepl >=0.8.2
+    - pyrepl >=0.8.2  # [not win] 
 
 test:
   imports:
